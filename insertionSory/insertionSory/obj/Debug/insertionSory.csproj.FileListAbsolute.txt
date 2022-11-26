@@ -1,7 +1,0 @@
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\bin\Debug\insertionSory.exe.config
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\bin\Debug\insertionSory.exe
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\bin\Debug\insertionSory.pdb
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\obj\Debug\insertionSory.csprojAssemblyReference.cache
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\obj\Debug\insertionSory.csproj.CoreCompileInputs.cache
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\obj\Debug\insertionSory.exe
-G:\University\DS\insertionSort\C#\insertionSory\insertionSory\obj\Debug\insertionSory.pdb
