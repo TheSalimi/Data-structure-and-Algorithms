@@ -1,10 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {12, 11, 13, 5, 6, 7};
-
-        Sort(arr, 0, arr.length - 1);
-
-        for (int number : arr) System.out.print(number + " ");
     }
 
     static void Sort(int[] arr, int left, int right) {
