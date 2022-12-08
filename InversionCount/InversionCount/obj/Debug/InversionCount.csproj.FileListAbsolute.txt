@@ -1,0 +1,7 @@
+G:\University\DS\InversionCount\InversionCount\obj\Debug\InversionCount.csprojAssemblyReference.cache
+G:\University\DS\InversionCount\InversionCount\obj\Debug\InversionCount.csproj.CoreCompileInputs.cache
+G:\University\DS\InversionCount\InversionCount\bin\Debug\InversionCount.exe.config
+G:\University\DS\InversionCount\InversionCount\bin\Debug\InversionCount.exe
+G:\University\DS\InversionCount\InversionCount\bin\Debug\InversionCount.pdb
+G:\University\DS\InversionCount\InversionCount\obj\Debug\InversionCount.exe
+G:\University\DS\InversionCount\InversionCount\obj\Debug\InversionCount.pdb
