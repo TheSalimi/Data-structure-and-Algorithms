@@ -1,5 +1,3 @@
-# Data-structure
-
 # Sorting
 
 ## Insertion Sort
