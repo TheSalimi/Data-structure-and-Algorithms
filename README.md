@@ -10,6 +10,11 @@ Read more about insertion sort in :
 
 ![Insertion-sort-example-300px](https://user-images.githubusercontent.com/108394058/205162632-88f31337-a2e9-480e-adee-48b8efdf5680.gif)
 
+## Bubble Sort
+> Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+
+[geeks for geeks](https://www.geeksforgeeks.org/bubble-sort/)
+
 ## Selection Sort
 > In computer science, selection sort is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort...
 
