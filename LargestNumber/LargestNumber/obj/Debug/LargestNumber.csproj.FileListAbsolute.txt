@@ -1,0 +1,7 @@
+G:\University\DS\LargestNumber\LargestNumber\bin\Debug\LargestNumber.exe.config
+G:\University\DS\LargestNumber\LargestNumber\bin\Debug\LargestNumber.exe
+G:\University\DS\LargestNumber\LargestNumber\bin\Debug\LargestNumber.pdb
+G:\University\DS\LargestNumber\LargestNumber\obj\Debug\LargestNumber.csprojAssemblyReference.cache
+G:\University\DS\LargestNumber\LargestNumber\obj\Debug\LargestNumber.csproj.CoreCompileInputs.cache
+G:\University\DS\LargestNumber\LargestNumber\obj\Debug\LargestNumber.exe
+G:\University\DS\LargestNumber\LargestNumber\obj\Debug\LargestNumber.pdb
