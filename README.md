@@ -31,3 +31,12 @@ Read more about insertion sort in :
 
 ![Merge-sort-example-300px](https://user-images.githubusercontent.com/108394058/206577029-d01fafb6-9ee3-49cf-81d1-9671bff341cd.gif)
 
+## Radix sort
+> In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix.
+
+[wikipedia](https://en.wikipedia.org/wiki/Radix_sort)
+
+[geeks for geeks](https://www.geeksforgeeks.org/radix-sort/)
+
+![IEZs8xJML3-radixsort_ed](https://user-images.githubusercontent.com/108394058/207691756-3ed33651-0400-440b-a993-d4b4c1554696.png)
+
