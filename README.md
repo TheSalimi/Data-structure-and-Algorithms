@@ -15,6 +15,8 @@ Read more about insertion sort in :
 
 [geeks for geeks](https://www.geeksforgeeks.org/bubble-sort/)
 
+![Bubble-sort-example-300px](https://user-images.githubusercontent.com/108394058/207931294-208f5fe8-7061-489c-9836-24e2c69b292d.gif)
+
 ## Selection Sort
 > In computer science, selection sort is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort...
 
