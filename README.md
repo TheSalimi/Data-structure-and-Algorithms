@@ -14,6 +14,12 @@ average and worst case (when the list is in descending order): O(n^2)
 > [Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)
 is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
+###### Best case 
+> The best case for bubble sort occurs when the list is already sorted or nearly sorted. In the case where the list is already sorted, bubble sort will terminate after the first iteration, since no swaps were made : O(n)
+
+###### worst case
+> The worst situation for bubble sort is when the list's smallest element is in the last position. In this situation, the smallest element will move down one place on each pass through the list, meaning that the sort will need to make the maximum number of passes through the list, namely n - 1 : O(n^2)
+
 ![Bubble-sort-example-300px](https://user-images.githubusercontent.com/108394058/207931294-208f5fe8-7061-489c-9836-24e2c69b292d.gif)
 
 ## Selection Sort
