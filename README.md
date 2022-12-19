@@ -1,17 +1,19 @@
 # Sorting
 
 ## Insertion Sort
-> [Inserton Sort](https://www.geeksforgeeks.org/insertion-sort/) 
+[Inserton Sort](https://www.geeksforgeeks.org/insertion-sort/) 
  is a simple sorting algorithm that builds the final sorted array (or list) one item at a time by comparisons...
 
-Best case (when the list is already in the correct order): O(n)
+###### Best case 
+> when the list is already in the correct order : O(n)
 
-average and worst case (when the list is in descending order): O(n^2)
+###### Worst case 
+> when the list is in descending order: O(n^2)
 
 ![Insertion-sort-example-300px](https://user-images.githubusercontent.com/108394058/205162632-88f31337-a2e9-480e-adee-48b8efdf5680.gif)
 
 ## Bubble Sort
-> [Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)
+[Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)
 is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
 ###### Best case 
