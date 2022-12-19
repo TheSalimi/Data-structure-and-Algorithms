@@ -33,6 +33,17 @@ Read more about insertion sort in :
 
 ![Merge-sort-example-300px](https://user-images.githubusercontent.com/108394058/206577029-d01fafb6-9ee3-49cf-81d1-9671bff341cd.gif)
 
+## Quick sort
+> Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+
+Worst complexity: n^2
+Average complexity: n*log(n)
+Best complexity: n*log(n)
+
+[Video from : geeks for geeks](https://www.youtube.com/watch?v=PgBzjlCcFvc)
+
+[document from : geeks for geeks](https://www.geeksforgeeks.org/quick-sort/)
+
 ## Radix sort
 > In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix.
 
