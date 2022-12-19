@@ -1,38 +1,29 @@
 # Sorting
 
 ## Insertion Sort
-> Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time by comparisons...
-Read more about insertion sort in :
+> [Inserton Sort](https://www.geeksforgeeks.org/insertion-sort/) 
+ is a simple sorting algorithm that builds the final sorted array (or list) one item at a time by comparisons...
 
 ![Insertion-sort-example-300px](https://user-images.githubusercontent.com/108394058/205162632-88f31337-a2e9-480e-adee-48b8efdf5680.gif)
 
-[geeks for geeks](https://www.geeksforgeeks.org/insertion-sort/) ,
-[wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
-
 ## Bubble Sort
-> Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+> [Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)
+is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
 ![Bubble-sort-example-300px](https://user-images.githubusercontent.com/108394058/207931294-208f5fe8-7061-489c-9836-24e2c69b292d.gif)
 
-[geeks for geeks](https://www.geeksforgeeks.org/bubble-sort/)
-
 ## Selection Sort
-> In computer science, selection sort is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort...
+> In computer science, [Selection Sort](https://www.geeksforgeeks.org/selection-sort/) is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort...
 
 ![selection-sort-amination](https://user-images.githubusercontent.com/108394058/205165479-571f3d1e-4a6f-49e5-9704-b7a84bfb343c.gif)
 
-[geeks for geeks](https://www.geeksforgeeks.org/selection-sort/) ,
-[wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
-
 ## Merge sort
-> The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner...
+> The [Merge Sort](https://www.geeksforgeeks.org/merge-sort/) algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner...
 
 ![Merge-sort-example-300px](https://user-images.githubusercontent.com/108394058/206577029-d01fafb6-9ee3-49cf-81d1-9671bff341cd.gif)
 
-[geeks for geeks](https://www.geeksforgeeks.org/merge-sort/)
-
 ## Quick sort
-> Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+> Like Merge Sort, [Quick Sort](https://www.geeksforgeeks.org/quick-sort/) is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
 
 Worst complexity: n^2
 
@@ -42,14 +33,20 @@ Best complexity: n*log(n)
 
 ![quicksort](https://user-images.githubusercontent.com/108394058/208423135-b68ef880-d2cc-43fd-af93-cfc8b923233d.gif)
 
-[Video from : geeks for geeks](https://www.youtube.com/watch?v=PgBzjlCcFvc) 
+## Counting Sort
+> [Counting sort](https://www.geeksforgeeks.org/counting-sort/) is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (a kind of hashing). Then do some arithmetic operations to calculate the position of each object in the output sequence. 
 
-[document from : geeks for geeks](https://www.geeksforgeeks.org/quick-sort/)
+Worst case: when data is skewed and range is large.
+
+Best Case: When all elements are same : O(n)
+
+Average Case: O(N+K) (N & K equally dominant)
+
+![countingSort](https://user-images.githubusercontent.com/108394058/208434695-9b0a6f9e-d533-4ace-a012-3db4976a5ee7.gif)
+
 
 ## Radix sort
-> In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix.
+> In computer science, [Radix sort](https://www.geeksforgeeks.org/radix-sort/)
+ is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix.
 
 ![IEZs8xJML3-radixsort_ed](https://user-images.githubusercontent.com/108394058/207691756-3ed33651-0400-440b-a993-d4b4c1554696.png)
-
-[wikipedia](https://en.wikipedia.org/wiki/Radix_sort) ,
-[geeks for geeks](https://www.geeksforgeeks.org/radix-sort/)
