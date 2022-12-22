@@ -35,7 +35,7 @@ is the simplest sorting algorithm that works by repeatedly swapping the adjacent
 ![Merge-sort-example-300px](https://user-images.githubusercontent.com/108394058/206577029-d01fafb6-9ee3-49cf-81d1-9671bff341cd.gif)
 
 ## Quick sort
-> Like Merge Sort, [Quick Sort](https://www.geeksforgeeks.org/quick-sort/) is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+Like Merge Sort, [Quick Sort](https://www.geeksforgeeks.org/quick-sort/) is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
 
 ###### Worst complexity
 > n^2
