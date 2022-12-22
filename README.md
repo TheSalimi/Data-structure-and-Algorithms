@@ -37,11 +37,14 @@ is the simplest sorting algorithm that works by repeatedly swapping the adjacent
 ## Quick sort
 > Like Merge Sort, [Quick Sort](https://www.geeksforgeeks.org/quick-sort/) is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
 
-Worst complexity: n^2
+###### Worst complexity
+> n^2
 
-Average complexity: n*log(n)
+###### Average complexity
+> n*log(n)
 
-Best complexity: n*log(n)
+###### Best complexity
+> n*log(n)
 
 ![quicksort](https://user-images.githubusercontent.com/108394058/208423135-b68ef880-d2cc-43fd-af93-cfc8b923233d.gif)
 
