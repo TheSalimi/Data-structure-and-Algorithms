@@ -33,6 +33,7 @@ is the simplest sorting algorithm that works by repeatedly swapping the adjacent
 The [Merge Sort](https://www.geeksforgeeks.org/merge-sort/) algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner...
 ###### Worst , Best , average caae
 > nlogn
+
 ![Merge-sort-example-300px](https://user-images.githubusercontent.com/108394058/206577029-d01fafb6-9ee3-49cf-81d1-9671bff341cd.gif)
 
 ## Quick sort
