@@ -51,13 +51,16 @@ Like Merge Sort, [Quick Sort](https://www.geeksforgeeks.org/quick-sort/) is a Di
 ![quicksort](https://user-images.githubusercontent.com/108394058/208423135-b68ef880-d2cc-43fd-af93-cfc8b923233d.gif)
 
 ## Counting Sort
-> [Counting sort](https://www.geeksforgeeks.org/counting-sort/) is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (a kind of hashing). Then do some arithmetic operations to calculate the position of each object in the output sequence. 
+ [Counting sort](https://www.geeksforgeeks.org/counting-sort/) is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (a kind of hashing). Then do some arithmetic operations to calculate the position of each object in the output sequence. 
 
-Worst case: when data is skewed and range is large.
+###### Worst case
+> when data is skewed and range is large.
 
-Best Case: When all elements are same : O(n)
+###### Best Case
+> When all elements are same : O(n)
 
-Average Case: O(N+K) (N & K equally dominant)
+###### Average Case
+> O(N+K) (N & K equally dominant)
 
 ![countingSort](https://user-images.githubusercontent.com/108394058/208434695-9b0a6f9e-d533-4ace-a012-3db4976a5ee7.gif)
 
