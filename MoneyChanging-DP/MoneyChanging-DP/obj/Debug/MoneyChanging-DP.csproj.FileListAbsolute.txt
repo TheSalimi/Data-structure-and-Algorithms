@@ -1,0 +1,7 @@
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\bin\Debug\MoneyChanging-DP.exe.config
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\bin\Debug\MoneyChanging-DP.exe
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\bin\Debug\MoneyChanging-DP.pdb
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\obj\Debug\MoneyChanging-DP.csprojAssemblyReference.cache
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\obj\Debug\MoneyChanging-DP.csproj.CoreCompileInputs.cache
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\obj\Debug\MoneyChanging-DP.exe
+G:\University\DS\MoneyChanging-DP\MoneyChanging-DP\obj\Debug\MoneyChanging-DP.pdb
