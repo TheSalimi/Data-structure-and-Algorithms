@@ -1,0 +1,7 @@
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\bin\Debug\MoneyChanging-Greedy.exe.config
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\bin\Debug\MoneyChanging-Greedy.exe
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\bin\Debug\MoneyChanging-Greedy.pdb
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\obj\Debug\MoneyChanging-Greedy.csprojAssemblyReference.cache
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\obj\Debug\MoneyChanging-Greedy.csproj.CoreCompileInputs.cache
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\obj\Debug\MoneyChanging-Greedy.exe
+G:\University\DS\MoneyChanging-Greedy\MoneyChanging-Greedy\obj\Debug\MoneyChanging-Greedy.pdb
