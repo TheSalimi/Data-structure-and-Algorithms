@@ -1,0 +1,7 @@
+G:\University\DS\CYK algorithm\CYK algorithm\bin\Debug\CYK algorithm.exe.config
+G:\University\DS\CYK algorithm\CYK algorithm\bin\Debug\CYK algorithm.exe
+G:\University\DS\CYK algorithm\CYK algorithm\bin\Debug\CYK algorithm.pdb
+G:\University\DS\CYK algorithm\CYK algorithm\obj\Debug\CYK algorithm.csprojAssemblyReference.cache
+G:\University\DS\CYK algorithm\CYK algorithm\obj\Debug\CYK algorithm.csproj.CoreCompileInputs.cache
+G:\University\DS\CYK algorithm\CYK algorithm\obj\Debug\CYK algorithm.exe
+G:\University\DS\CYK algorithm\CYK algorithm\obj\Debug\CYK algorithm.pdb
