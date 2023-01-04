@@ -1,0 +1,7 @@
+G:\University\DS\Dijkstra\Dijkstra\bin\Debug\Dijkstra.exe.config
+G:\University\DS\Dijkstra\Dijkstra\bin\Debug\Dijkstra.exe
+G:\University\DS\Dijkstra\Dijkstra\bin\Debug\Dijkstra.pdb
+G:\University\DS\Dijkstra\Dijkstra\obj\Debug\Dijkstra.csprojAssemblyReference.cache
+G:\University\DS\Dijkstra\Dijkstra\obj\Debug\Dijkstra.csproj.CoreCompileInputs.cache
+G:\University\DS\Dijkstra\Dijkstra\obj\Debug\Dijkstra.exe
+G:\University\DS\Dijkstra\Dijkstra\obj\Debug\Dijkstra.pdb
