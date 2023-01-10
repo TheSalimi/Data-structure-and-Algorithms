@@ -36,6 +36,13 @@ The [Merge Sort](https://www.geeksforgeeks.org/merge-sort/) algorithm is a sorti
 
 ![Merge-sort-example-300px](https://user-images.githubusercontent.com/108394058/206577029-d01fafb6-9ee3-49cf-81d1-9671bff341cd.gif)
 
+## Heap sort
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
+###### Worst , Best , average caae
+> nlogn
+
+![heapSortExample](https://user-images.githubusercontent.com/108394058/211544603-e8327a90-cc06-4206-8e54-6a953d3b5860.gif)
+
 ## Quick sort
 Like Merge Sort, [Quick Sort](https://www.geeksforgeeks.org/quick-sort/) is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
 
