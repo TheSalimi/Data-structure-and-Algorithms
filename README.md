@@ -25,7 +25,7 @@ is the simplest sorting algorithm that works by repeatedly swapping the adjacent
 ![Bubble-sort-example-300px](https://user-images.githubusercontent.com/108394058/207931294-208f5fe8-7061-489c-9836-24e2c69b292d.gif)
 
 ## Selection Sort
-> In computer science, [Selection Sort](https://www.geeksforgeeks.org/selection-sort/) is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort...
+In computer science, [Selection Sort](https://www.geeksforgeeks.org/selection-sort/) is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort...
 
 ![selection-sort-amination](https://user-images.githubusercontent.com/108394058/205165479-571f3d1e-4a6f-49e5-9704-b7a84bfb343c.gif)
 
