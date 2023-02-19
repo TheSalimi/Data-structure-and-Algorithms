@@ -28,7 +28,6 @@ def matrixChainMultiplication(dimonsions):
             j = i + sliceLength - 1
             m[i][j] = sys.maxsize
             for k in range(i, j):
-                s = [[0 for x in range(i)] for x in range(j)]
                 q = m[i][k] + m[k+1][j] + dimonsions[i-1] * \
                     dimonsions[k]*dimonsions[j]
                 if q < m[i][j]:
