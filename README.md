@@ -3,6 +3,8 @@
 ## Dynamic programming
 [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/) is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.
 
+see more at [here](https://github.com/TheSalimi/Data-structure-and-Algorithms/tree/main/DP)
+
 ## Greedy
 [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms-general-structure-and-applications/) work step-by-step, and always choose the steps which provide immediate profit/benefit. It chooses the “locally optimal solution”, without thinking about future consequences.
 
