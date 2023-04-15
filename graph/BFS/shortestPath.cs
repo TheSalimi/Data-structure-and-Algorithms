@@ -1,69 +1,103 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
-namespace HW3_2
+class Node
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int[] n_m = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-            List<int>[] adj = new List<int>[n_m[1]];
+	public string color;
+	public int depth;
+	public int parent;
+	public int num;
+	public Node(string color, int depth, int parent, int num)
+	{
+		this.color = color;
+		this.depth = depth;
+		this.parent = parent;
+		this.num = num;
+	}
+}
+class Graph
+{
+	private int V;
+	private LinkedList<Node>[] adj;
 
-            for (int i = 0; i < n_m[1]; i++)
-                adj[i] = new List<int>();
+	// Constructor
+	Graph(int v)
+	{
+		V = v;
+		adj = new LinkedList<Node>[v + 1];
+		for (int i = 0; i <= v; ++i)
+			adj[i] = new LinkedList<Node>();
+	}
 
-            for (int i = 0; i < n_m[1]; i++)
-            {
-                int[] input = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-                addEdge(input[0], input[1], adj);
-            }
+	// Function to add an edge into the graph
+	void addEdge(int v, int w)
+	{
+		Node node = new Node("white", int.MaxValue, int.MinValue, w);
+		adj[v].AddLast(node);
+	}
+	bool pathLength(int s, int d)
+	{
+		LinkedList<Node> queue = new LinkedList<Node>();
+		Node start = new Node("gray", 0, -1, s);
+		queue.AddLast(start);
+		while (queue.Count != 0)
+		{
+			Node u = queue.First.Value;
+			queue.RemoveFirst();
+			foreach (Node vertex in adj[u.num])
+			{
+				if (vertex.num == d)
+				{
+					Console.WriteLine(u.depth + 1);
+					return true;
+				}
+				if (vertex.color == "white")
+				{
+					vertex.color = "gray";
+					vertex.depth = u.depth + 1;
+					vertex.parent = u.num;
+					queue.AddLast(vertex);
+				}
+			}
+			u.color = "black";
+		}
+		return false;
+	}
 
-            int[] u_v = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+	public static void Main(string[] args)
+	{
 
-            int level = 0;
-            Queue<int> queue = new Queue<int>();
-            HashSet<int> visitedNodes = new HashSet<int>();
-            queue.Enqueue(u_v[0]);
-            visitedNodes.Add(u_v[0]);
-            bool addLevel = false;
-            bool found = false;
-            while (queue.Count != 0)
-            {
-                addLevel = false;
-                int state = queue.Dequeue();
-                foreach (int vert in adj[state])
-                {
-                    if (vert == u_v[1])
-                    {
-                        found = true;
-                        addLevel = true;
-                    }
-                    else if (!visitedNodes.Contains(vert))
-                    {
-                        queue.Enqueue(vert);
-                        visitedNodes.Add(vert);
-                        addLevel = true;
-                    }
-                }
+		int[] n_m = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+		int n = n_m[0];
+		int m = n_m[1];
+		List<List<int>> adj = new List<List<int>>(n);
+		Graph g = new Graph(n);
+		int i = 0;
+		while (i != n)
+		{
+			adj.Add(new List<int>());
+			i++;
+		}
 
-                visitedNodes.Add(state);
+		i = 0;
+		while (i != m)
+		{
+			int[] a_b = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+			int a = a_b[0];
+			int b = a_b[1];
 
-                if (addLevel)
-                    level++;
+			g.addEdge(a, b);
+			i++;
+		}
 
-                if (found)
-                    break;
-            }
-            if (!found)
-                Console.WriteLine("no path");
-            else
-                Console.WriteLine(level);
-        }
+		int[] u_v = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+		int u = u_v[0];
+		int v = u_v[1];
 
-        static void addEdge(int a, int b, List<int>[] adj)
-        {
-            adj[a].Add(b);
-        }
-    }
+		if (!g.pathLength(u, v))
+		{
+			Console.WriteLine("no path");
+		}
+	}
 }
