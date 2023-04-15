@@ -8,6 +8,9 @@ see more at [here](https://github.com/TheSalimi/Data-structure-and-Algorithms/tr
 ## Greedy
 [Greedy Algorithms](https://www.geeksforgeeks.org/greedy-algorithms-general-structure-and-applications/) work step-by-step, and always choose the steps which provide immediate profit/benefit. It chooses the “locally optimal solution”, without thinking about future consequences.
 
+## BFS
+[The breadth-first search (BFS)](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/) algorithm is used to search a tree or graph data structure for a node that meets a set of criteria. It starts at the tree’s root or graph and searches/visits all nodes at the current depth level before moving on to the nodes at the next depth level. Breadth-first search can be used to solve many problems in graph theory.
+
 ## Insertion Sort
 [Inserton Sort](https://www.geeksforgeeks.org/insertion-sort/) 
  is a simple sorting algorithm that builds the final sorted array (or list) one item at a time by comparisons...
