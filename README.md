@@ -11,6 +11,9 @@ see more at [here](https://github.com/TheSalimi/Data-structure-and-Algorithms/tr
 ## BFS
 [The breadth-first search (BFS)](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/) algorithm is used to search a tree or graph data structure for a node that meets a set of criteria. It starts at the tree’s root or graph and searches/visits all nodes at the current depth level before moving on to the nodes at the next depth level. Breadth-first search can be used to solve many problems in graph theory.
 
+## DFS
+[Depth First](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) Traversal (or Search) for a graph is similar to Depth First Traversal of a tree. The only catch here is, that, unlike trees, graphs may contain cycles (a node may be visited twice). To avoid processing a node more than once, use a boolean visited array. A graph can have more than one DFS traversal.
+
 ## Insertion Sort
 [Inserton Sort](https://www.geeksforgeeks.org/insertion-sort/) 
  is a simple sorting algorithm that builds the final sorted array (or list) one item at a time by comparisons...
